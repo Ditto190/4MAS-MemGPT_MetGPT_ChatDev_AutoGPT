@@ -13,3 +13,6 @@
 [submodule "MetaGPT"]
     path = agents/MetaGPT
     url = https://github.com/Ditto190/MetaGPT.git
+[submodule "TextGenerationWebUI"]
+    path = tools/TextGenerationWebUI
+    url = https://github.com/Ditto190/text-generation-webui.git
