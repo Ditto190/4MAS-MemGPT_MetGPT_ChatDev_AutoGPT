@@ -1,0 +1,15 @@
+[submodule "CrewAI"]
+    path = agents/CrewAI
+    url = https://github.com/Ditto190/crewAI_fork.git
+[submodule "ChatDev"]
+    path = agents/ChatDev
+    url = https://github.com/Ditto190/ChatDev.git
+[submodule "MemGPT"]
+    path = agents/MemGPT
+    url = https://github.com/Ditto190/MemGPT.git
+[submodule "Autogen"]
+    path = agents/Autogen
+    url = https://github.com/Ditto190/autogen.git
+[submodule "MetaGPT"]
+    path = agents/MetaGPT
+    url = https://github.com/Ditto190/MetaGPT.git
