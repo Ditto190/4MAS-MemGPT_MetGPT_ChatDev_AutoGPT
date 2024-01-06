@@ -1,0 +1,21 @@
+# Environment variables and sensitive data
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Build output
+build/
+dist/

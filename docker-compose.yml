@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  autogen:
+    build:
+      context: ./agents/Autogen/agents/Autogen
+      dockerfile: Dockerfile
+    environment:
+      - OPENAI_API_KEY=${GPT4_API_KEY}
+
+  chatdev:
+    build:
+      context: ./agents/ChatDev
+      dockerfile: Dockerfile
+    environment:
+      - OPENAI_API_KEY=${GPT35_TURBO_API_KEY}
+
+  metagpt:
+    build:
+      context: ./agents/MetaGPT
+      dockerfile: Dockerfile
+    volumes:
+      - ./agents/MetaGPT:/workspaces:cached
+    networks:
+      - metagpt-network
+
+networks:
+  metagpt-network:
+    driver: bridge
