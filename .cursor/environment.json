@@ -1,0 +1,4 @@
+{
+  "name": "4MAS multi-agent frameworks",
+  "install": "bash .cursor/install.sh"
+}
