@@ -8,7 +8,7 @@
     path = agents/MemGPT
     url = https://github.com/Ditto190/MemGPT.git
 [submodule "Autogen"]
-    path = agents/Autogen
+    path = agents/Autogen/agents/Autogen
     url = https://github.com/Ditto190/autogen.git
 [submodule "MetaGPT"]
     path = agents/MetaGPT
